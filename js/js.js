@@ -5,9 +5,10 @@
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,
-        type: 'pie'
+        type: 'pie',
+        height :'200px'
     },
-    colors: ['#34BB49 ', '  #AEAEAE'],
+    colors: [' #43E0B0 ', '  #18C2E7'],
     title: {
         text: ''
     },
@@ -23,7 +24,7 @@
         pie: {
             allowPointSelect: true,
             cursor: 'pointer',
-            innerSize: '70%',
+            innerSize: '50%',
             dataLabels: {
                 enabled: false
             },
@@ -49,29 +50,33 @@
         name: 'Brands',
         colorByPoint: true,
         data: [{
-            name: 'Published',
-            y: 61.41,
+            name: 'Female',
+            y: 62,
             sliced: false,
             selected: true
         }, {
-            name: 'Draft',
-            y: 11.84
+            name: 'Male',
+            y: 38
         }]
     }]
 });
   
 
-	
-    Highcharts.chart('content', {
+
+    
+
+    
+    Highcharts.chart('container2', {
     chart: {
         plotBackgroundColor: null,
         plotBorderWidth: null,
         plotShadow: false,
-        type: 'pie'
+        type: 'pie',
+        height :'200px'
     },
-        colors: ['#42A4DF ', ' #FFBC11'],
+    colors: [' #43E0B0 ', '  #18C2E7'],
     title: {
-        text: '`'
+        text: ''
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -81,27 +86,23 @@
             valueSuffix: '%'
         }
     },
-
     plotOptions: {
         pie: {
             allowPointSelect: true,
             cursor: 'pointer',
-            innerSize: '0%',
+            innerSize: '50%',
             dataLabels: {
                 enabled: false
             },
             showInLegend: true
-        },
-        color:{}
+        }
     },
-
-
     legend: {
         layout: 'vertical',
-        align: 'bottom',
-        // verticalAlign: 'end',
-        // itemMarginTop: 1,
-        // itemMarginBottom: 1
+        align: 'right',
+        verticalAlign: 'middle',
+        itemMarginTop: 10,
+        itemMarginBottom: 10
     },
     series: [{
         // dataLabels: {
@@ -115,14 +116,13 @@
         name: 'Brands',
         colorByPoint: true,
         data: [{
-            name: 'By admin',
-            y: 61.41,
+            name: 'Female',
+            y: 62,
             sliced: false,
             selected: true
-
         }, {
-            name: 'By manager',
-            y: 11.84
+            name: 'Male',
+            y: 38
         }]
     }]
 });
