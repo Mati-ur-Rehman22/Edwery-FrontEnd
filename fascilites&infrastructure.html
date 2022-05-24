@@ -29,6 +29,7 @@
 	<div  class="container-fluid body-padding">	
 		<div class="row">
 			<div class="col-lg-3 nav_col">
+					<div class="navbar-center">
 				<nav class="navbar navbar-expand-lg navbar-light">
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -70,10 +71,20 @@
 					</div>
 				</nav>
 			</div>
-			<div class="col-lg-9">
+
+				<div class="row d-flex justify-content-end" >
+					<div class="col-md-12 pt-3 pb-3 contact_navbar" style="margin-right: 20px; margin-top: 2100px; width: 215px;background: #F7F9FC;border-radius: 20px;">
+							<p class="para-text">If we missed any<br>information or<br> 
+								need to update<br>information<br> 
+							Contact us.</p>
+							<button class="contactus-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./imgs/chat.png" width="16px" height="16px">CONTACT US</button>
+						</div>
+				</div>
+			</div>
+			<div class="col-lg-9 colum_9_4k">
 				<div class="row pt-3 pb-3" style="background: #F7F9FC;">
 					<div class="col-lg-6">
-						<div class="media d-flex">
+						<div class="media d-flex align-items-center">
 							<img src="./imgs/Frame 639.png" class="align-self-center mr-3" width="76px" height="76px">
 							<div class="media-body">
 								<h5 class="mt-0 mediacard-title">The Indian Academy, Sharjah</h5>
@@ -95,11 +106,13 @@
 				<div class="row mt-3 row-padding">
 					<div class="col-lg-8">
 						<p class="headings">Facilities & Infrastructure</p>
-						<p class="student-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi. Suspendisse in est ante in nibh mauris cursus mattis. </p>
+						<p class="heading-para-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor id eu nisl nunc mi. Suspendisse in est ante in nibh mauris cursus mattis. </p>
 					</div>
 
 					<div class="col-lg-4">
-						chart
+						<div>
+							<div id="container"></div>
+						</div>
 					</div>
 				</div>
 
@@ -113,19 +126,19 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Library" name="Library" value="Library">
+						<input type="radio" class="custom_radio" id="Library" name="Library" value="Library">
 						<label for="html" class="radio_labels">Library</label><br>
-						<input type="radio" id="Digital Library" name="digital_Library" value="Digital Library">
+						<input type="radio" class="custom_radio" id="Digital Library" name="digital_Library" value="Digital Library">
 						<label for="css" class="radio_labels">Digital Library</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="excahnge_program" name="excahnge_program" value="excahnge_program">
+						<input type="radio" class="custom_radio" id="excahnge_program" name="excahnge_program" value="excahnge_program">
 						<label for="html" class="radio_labels">Student Exchange Programs</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="test_center" name="test_center" value="test_center">
+						<input type="radio" class="custom_radio" id="test_center" name="test_center" value="test_center">
 						<label for="html" class="radio_labels">Test Center</label><br>
 
 					</div>
@@ -139,87 +152,87 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Aerobics" name="Aerobics" value="Aerobics">
+						<input type="radio" class="custom_radio" id="Aerobics" name="Aerobics" value="Aerobics">
 						<label for="html" class="radio_labels">Aerobics</label><br>
-						<input type="radio" id="Archery" name="Archery" value="Archery">
+						<input type="radio" class="custom_radio" id="Archery" name="Archery" value="Archery">
 						<label for="css" class="radio_labels">Archery</label><br>
-						<input type="radio" id="Athletics" name="Athletics" value="Athletics">
+						<input type="radio" class="custom_radio" id="Athletics" name="Athletics" value="Athletics">
 						<label for="html" class="radio_labels">Athletics</label><br>
-						<input type="radio" id="Badminton" name="Badminton" value="Badminton">
+						<input type="radio" class="custom_radio" id="Badminton" name="Badminton" value="Badminton">
 						<label for="css" class="radio_labels">Badminton</label><br>
 
-						<input type="radio" id="Baseball" name="Baseball" value="Baseball">
+						<input type="radio" class="custom_radio" id="Baseball" name="Baseball" value="Baseball">
 						<label for="html" class="radio_labels">Baseball</label><br>
-						<input type="radio" id="Basketball" name="Basketball" value="Basketball">
+						<input type="radio" class="custom_radio" id="Basketball" name="Basketball" value="Basketball">
 						<label for="css" class="radio_labels">Basketball</label><br>
-						<input type="radio" id="Boxing" name="Boxing" value="Boxing">
+						<input type="radio" class="custom_radio" id="Boxing" name="Boxing" value="Boxing">
 						<label for="html" class="radio_labels">Boxing</label><br>
-						<input type="radio" id="Netball" name="Netball" value="Netball">
+						<input type="radio" class="custom_radio" id="Netball" name="Netball" value="Netball">
 						<label for="css" class="radio_labels">Netball</label><br>
 
-						<input type="radio" id="Play_Area" name="Play_Area" value="Play_Area">
+						<input type="radio" class="custom_radio" id="Play_Area" name="Play_Area" value="Play_Area">
 						<label for="html" class="radio_labels">Play Area</label><br>
-						<input type="radio" id="Rugby" name="Rugby" value="Rugby">
+						<input type="radio" class="custom_radio" id="Rugby" name="Rugby" value="Rugby">
 						<label for="css" class="radio_labels">Rugby</label><br>
-						<input type="radio" id="Shooting" name="Shooting" value="Shooting">
+						<input type="radio" class="custom_radio" id="Shooting" name="Shooting" value="Shooting">
 						<label for="html" class="radio_labels">Shooting</label><br>
-						<input type="radio" id="Soccer" name="Soccer" value="Soccer">
+						<input type="radio" class="custom_radio" id="Soccer" name="Soccer" value="Soccer">
 						<label for="css" class="radio_labels">Soccer</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="covered_play_area" name="covered_play_area" value="covered_play_area">
+						<input type="radio" class="custom_radio" id="covered_play_area" name="covered_play_area" value="covered_play_area">
 						<label for="html" class="radio_labels">Covered Play Area</label><br>
-						<input type="radio" id="Fencing" name="Fencing" value="Fencing">
+						<input type="radio" class="custom_radio" id="Fencing" name="Fencing" value="Fencing">
 						<label for="css" class="radio_labels">Fencing</label><br>
-						<input type="radio" id="Football" name="Football" value="Football">
+						<input type="radio" class="custom_radio" id="Football" name="Football" value="Football">
 						<label for="html" class="radio_labels">Football</label><br>
-						<input type="radio" id="Golf" name="Golf" value="Golf">
+						<input type="radio" class="custom_radio" id="Golf" name="Golf" value="Golf">
 						<label for="css" class="radio_labels">Golf</label><br>
 
-						<input type="radio" id="Gymnasium" name="Gymnasium" value="Gymnasium">
+						<input type="radio" class="custom_radio" id="Gymnasium" name="Gymnasium" value="Gymnasium">
 						<label for="html" class="radio_labels">Gymnasium</label><br>
-						<input type="radio" id="Handball" name="Handball" value="Handball">
+						<input type="radio" class="custom_radio" id="Handball" name="Handball" value="Handball">
 						<label for="css" class="radio_labels">Handball</label><br>
-						<input type="radio" id="Hockey" name="Hockey" value="Hockey">
+						<input type="radio" class="custom_radio" id="Hockey" name="Hockey" value="Hockey">
 						<label for="html" class="radio_labels">Hockey</label><br>
-						<input type="radio" id="Sand_Pit" name="Sand_Pit" value="Sand_Pit">
+						<input type="radio" class="custom_radio" id="Sand_Pit" name="Sand_Pit" value="Sand_Pit">
 						<label for="css" class="radio_labels">Sand Pit</label><br>
 
-						<input type="radio" id="Sailing" name="Sailing" value="Sailing">
+						<input type="radio" class="custom_radio" id="Sailing" name="Sailing" value="Sailing">
 						<label for="html" class="radio_labels">Sailing</label><br>
-						<input type="radio" id="Squash" name="Squash" value="Squash">
+						<input type="radio" class="custom_radio" id="Squash" name="Squash" value="Squash">
 						<label for="css" class="radio_labels">Squash</label><br>
-						<input type="radio" id="Splash_Pool" name="Splash_Pool" value="Splash_Pool">
+						<input type="radio" class="custom_radio" id="Splash_Pool" name="Splash_Pool" value="Splash_Pool">
 						<label for="html" class="radio_labels">Splash Pool</label><br>
-						<input type="radio" id="Skating" name="Skating" value="Skating">
+						<input type="radio" class="custom_radio" id="Skating" name="Skating" value="Skating">
 						<label for="css" class="radio_labels">Skating</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Horse_Riding" name="Horse_Riding" value="Horse_Riding">
+						<input type="radio" class="custom_radio" id="Horse_Riding" name="Horse_Riding" value="Horse_Riding">
 						<label for="html" class="radio_labels">Horse Riding</label><br>
-						<input type="radio" id="Indoor_Stadium" name="Indoor_Stadium" value="Indoor_Stadium">
+						<input type="radio" class="custom_radio" id="Indoor_Stadium" name="Indoor_Stadium" value="Indoor_Stadium">
 						<label for="css" class="radio_labels">Indoor Stadium</label><br>
-						<input type="radio" id="Judo" name="Judo" value="Judo">
+						<input type="radio" class="custom_radio" id="Judo" name="Judo" value="Judo">
 						<label for="html" class="radio_labels">Judo</label><br>
-						<input type="radio" id="Kabaddi" name="Kabaddi" value="Kabaddi">
+						<input type="radio" class="custom_radio" id="Kabaddi" name="Kabaddi" value="Kabaddi">
 						<label for="css" class="radio_labels">Kabaddi</label><br>
 
-						<input type="radio" id="Karate" name="Karate" value="Karate">
+						<input type="radio" class="custom_radio" id="Karate" name="Karate" value="Karate">
 						<label for="html" class="radio_labels">Karate</label><br>
-						<input type="radio" id="Kho_Kho" name="Kho_Kho" value="Kho_Kho">
+						<input type="radio" class="custom_radio" id="Kho_Kho" name="Kho_Kho" value="Kho_Kho">
 						<label for="css" class="radio_labels">Kho Kho</label><br>
-						<input type="radio" id="Outdoor_Stadium" name="Outdoor_Stadium" value="Outdoor_Stadium">
+						<input type="radio" class="custom_radio" id="Outdoor_Stadium" name="Outdoor_Stadium" value="Outdoor_Stadium">
 						<label for="css" class="radio_labels">Outdoor Stadium</label><br>
 
-						<input type="radio" id="Swimming" name="Swimming" value="Swimming">
+						<input type="radio" class="custom_radio" id="Swimming" name="Swimming" value="Swimming">
 						<label for="html" class="radio_labels">Swimming</label><br>
-						<input type="radio" id="Rowing" name="Rowing" value="Rowing">
+						<input type="radio" class="custom_radio" id="Rowing" name="Rowing" value="Rowing">
 						<label for="css" class="radio_labels">Rowing</label><br>
-						<input type="radio" id="Table_Tennis" name="Table_Tennis" value="Table_Tennis">
+						<input type="radio" class="custom_radio" id="Table_Tennis" name="Table_Tennis" value="Table_Tennis">
 						<label for="html" class="radio_labels">Table Tennis</label><br>
-						<input type="radio" id="Taekwando" name="Taekwando" value="Taekwando">
+						<input type="radio" class="custom_radio" id="Taekwando" name="Taekwando" value="Taekwando">
 						<label for="css" class="radio_labels">Taekwando</label><br>
 
 					</div>
@@ -233,19 +246,19 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="AC_Classrooms" name="classroom_facilites" value="AC_Classrooms">
+						<input type="radio" class="custom_radio" id="AC_Classrooms" name="classroom_facilites" value="AC_Classrooms">
 						<label for="html" class="radio_labels">AC Classrooms</label><br>
-						<input type="radio" id="Sand_Pit" name="Sand-Pit" value="Sand_Pit">
+						<input type="radio" class="custom_radio" id="Sand_Pit" name="Sand-Pit" value="Sand_Pit">
 						<label for="css" class="radio_labels">Sand Pit</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Lockers" name="Lockers" value="Lockers">
+						<input type="radio" class="custom_radio" id="Lockers" name="Lockers" value="Lockers">
 						<label for="html" class="radio_labels">Lockers</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Netball" name="Netball" value="Netball">
+						<input type="radio" class="custom_radio" id="Netball" name="Netball" value="Netball">
 						<label for="html" class="radio_labels">Netball</label><br>
 
 					</div>
@@ -260,19 +273,19 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Art" name="Art" value="Art">
+						<input type="radio" class="custom_radio" id="Art" name="Art" value="Art">
 						<label for="html" class="radio_labels">Art</label><br>
-						<input type="radio" id="Music" name="Music" value="Music">
+						<input type="radio" class="custom_radio" id="Music" name="Music" value="Music">
 						<label for="css" class="radio_labels">Music</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Dance" name="Dance" value="Dance">
+						<input type="radio" class="custom_radio" id="Dance" name="Dance" value="Dance">
 						<label for="html" class="radio_labels">Dance</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Dramatics" name="Dramatics" value="Dramatics">
+						<input type="radio" class="custom_radio" id="Dramatics" name="Dramatics" value="Dramatics">
 						<label for="html" class="radio_labels">Dramatics</label><br>
 
 					</div>
@@ -287,23 +300,23 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Laboratories" name="Laboratories" value="Laboratories">
+						<input type="radio" class="custom_radio" id="Laboratories" name="Laboratories" value="Laboratories">
 						<label for="html" class="radio_labels">Laboratories</label><br>
-						<input type="radio" id="Tinkering_Lab" name="Tinkering_Lab" value="Tinkering_Lab">
+						<input type="radio" class="custom_radio" id="Tinkering_Lab" name="Tinkering_Lab" value="Tinkering_Lab">
 						<label for="css" class="radio_labels">Atal Tinkering Lab (ATL)</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Language_Labs" name="Language_Labs" value="Language_Labs">
+						<input type="radio" class="custom_radio" id="Language_Labs" name="Language_Labs" value="Language_Labs">
 						<label for="html" class="radio_labels">Language Labs</label><br>
-						<input type="radio" id="Computer_Labs" name="Computer_Labs" value="Computer_Labs">
+						<input type="radio" class="custom_radio" id="Computer_Labs" name="Computer_Labs" value="Computer_Labs">
 						<label for="html" class="radio_labels">Computer Labs</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Maths_Labs" name="Maths_Labs" value="Maths_Labs">
+						<input type="radio" class="custom_radio" id="Maths_Labs" name="Maths_Labs" value="Maths_Labs">
 						<label for="html" class="radio_labels">Maths Labs</label><br>
-						<input type="radio" id="Robotics_Labs" name="Robotics_Labs" value="Robotics_Labs">
+						<input type="radio" class="custom_radio" id="Robotics_Labs" name="Robotics_Labs" value="Robotics_Labs">
 						<label for="html" class="radio_labels">Robotics Labs</label><br>
 
 					</div>
@@ -318,17 +331,17 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Buses" name="Buses" value="Buses">
+						<input type="radio" class="custom_radio" id="Buses" name="Buses" value="Buses">
 						<label for="html" class="radio_labels">Buses</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="AC_Buses" name="AC_Buses" value="AC_Buses">
+						<input type="radio" class="custom_radio" id="AC_Buses" name="AC_Buses" value="AC_Buses">
 						<label for="html" class="radio_labels">AC Buses</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Car" name="Car" value="Car">
+						<input type="radio" class="custom_radio" id="Car" name="Car" value="Car">
 						<label for="html" class="radio_labels">Car</label><br>
 					</div>
 					<div class="hr-border mt-4"></div>
@@ -341,12 +354,12 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Hostel" name="Hostel" value="Hostel">
+						<input type="radio" class="custom_radio" id="Hostel" name="Hostel" value="Hostel">
 						<label for="html" class="radio_labels">Hostel</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="AC_Hostels" name="AC_Hostels" value="AC_Hostels">
+						<input type="radio" class="custom_radio" id="AC_Hostels" name="AC_Hostels" value="AC_Hostels">
 						<label for="html" class="radio_labels">AC Hostels</label><br>
 					</div>
 					<div class="hr-border mt-4"></div>
@@ -359,19 +372,19 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Accessible_Parking" name="Accessible_Parking" value="Accessible_Parking">
+						<input type="radio" class="custom_radio" id="Accessible_Parking" name="Accessible_Parking" value="Accessible_Parking">
 						<label for="html" class="radio_labels">Accessible Parking</label><br>
-						<input type="radio" id="print_room_no" name="print_room_no" value="print_room_no">
+						<input type="radio" class="custom_radio" id="print_room_no" name="print_room_no" value="print_room_no">
 						<label for="css" class="radio_labels">Braille and Large Print Room  No.</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="level_entrance" name="level_entrance" value="level_entrance">
+						<input type="radio" class="custom_radio" id="level_entrance" name="level_entrance" value="level_entrance">
 						<label for="html" class="radio_labels">Ramped or Level Entrances</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Accessible_Washrooms" name="Accessible_Washrooms" value="Accessible_Washrooms">
+						<input type="radio" class="custom_radio" id="Accessible_Washrooms" name="Accessible_Washrooms" value="Accessible_Washrooms">
 						<label for="html" class="radio_labels">Accessible Washrooms</label><br>
 
 					</div>
@@ -385,19 +398,19 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="AV_Facilities" name="AV_Facilities" value="AV_Facilities">
+						<input type="radio" class="custom_radio" id="AV_Facilities" name="AV_Facilities" value="AV_Facilities">
 						<label for="html" class="radio_labels">AV Facilities</label><br>
-						<input type="radio" id="Wi-Fi" name="Wi-Fi" value="Wi-Fi">
+						<input type="radio" class="custom_radio" id="Wi-Fi" name="Wi-Fi" value="Wi-Fi">
 						<label for="css" class="radio_labels">Wi-Fi</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Interactive_Boards" name="Interactive_Boards" value="Interactive_Boards">
+						<input type="radio" class="custom_radio" id="Interactive_Boards" name="Interactive_Boards" value="Interactive_Boards">
 						<label for="html" class="radio_labels">Interactive Boards</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="School_App" name="School_App" value="School_App">
+						<input type="radio" class="custom_radio" id="School_App" name="School_App" value="School_App">
 						<label for="html" class="radio_labels">School App</label><br>
 
 					</div>
@@ -411,17 +424,17 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Canteen" name="Canteen" value="Canteen">
+						<input type="radio" class="custom_radio" id="Canteen" name="Canteen" value="Canteen">
 						<label for="html" class="radio_labels">Canteen</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Meal Served" name="Meal Served" value="Meal Served">
+						<input type="radio" class="custom_radio" id="Meal Served" name="Meal Served" value="Meal Served">
 						<label for="html" class="radio_labels">Meal Served</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Kitchen_Hall" name="Kitchen_Hall" value="Kitchen_Hall">
+						<input type="radio" class="custom_radio" id="Kitchen_Hall" name="Kitchen_Hall" value="Kitchen_Hall">
 						<label for="html" class="radio_labels">Kitchen & Dining Hall</label><br>
 
 					</div>
@@ -435,33 +448,33 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="CCTV" name="CCTV" value="CCTV">
+						<input type="radio" class="custom_radio" id="CCTV" name="CCTV" value="CCTV">
 						<label for="html" class="radio_labels">CCTV</label><br>
-						<input type="radio" id="Security_Guards" name="Security_Guards" value="Security_Guards">
+						<input type="radio" class="custom_radio" id="Security_Guards" name="Security_Guards" value="Security_Guards">
 						<label for="html" class="radio_labels">Security Guards</label><br>
-						<input type="radio" id="Speedometer_Bus" name="Speedometer_Bus" value="Speedometer_Bus">
+						<input type="radio" class="custom_radio" id="Speedometer_Bus" name="Speedometer_Bus" value="Speedometer_Bus">
 						<label for="html" class="radio_labels">Speedometer In Bus</label><br>
-						<input type="radio" id="Fire_Extinguisher_Bus" name="Fire_Extinguisher_Bus" value="Fire_Extinguisher_Bus">
+						<input type="radio" class="custom_radio" id="Fire_Extinguisher_Bus" name="Fire_Extinguisher_Bus" value="Fire_Extinguisher_Bus">
 						<label for="html" class="radio_labels">Fire Extinguisher In Bus</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Fire_Alarm" name="Fire_Alarm" value="Fire_Alarm">
+						<input type="radio" class="custom_radio" id="Fire_Alarm" name="Fire_Alarm" value="Fire_Alarm">
 						<label for="html" class="radio_labels">Fire Alarm</label><br>
-						<input type="radio" id="Boundary_Wall" name="Boundary_Wall" value="Boundary_Wall">
+						<input type="radio" class="custom_radio" id="Boundary_Wall" name="Boundary_Wall" value="Boundary_Wall">
 						<label for="html" class="radio_labels">Boundary Wall</label><br>
-						<input type="radio" id="GPS_Bus" name="GPS_Bus" value="GPS_Bus">
+						<input type="radio" class="custom_radio" id="GPS_Bus" name="GPS_Bus" value="GPS_Bus">
 						<label for="html" class="radio_labels">GPS In Bus</label><br>
-						<input type="radio" id="Bus_Tracking_App" name="Bus_Tracking_App" value="Bus_Tracking_App">
+						<input type="radio" class="custom_radio" id="Bus_Tracking_App" name="Bus_Tracking_App" value="Bus_Tracking_App">
 						<label for="html" class="radio_labels">School Bus Tracking App</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Fire_Extinguisher" name="Fire_Extinguisher" value="Fire_Extinguisher">
+						<input type="radio" class="custom_radio" id="Fire_Extinguisher" name="Fire_Extinguisher" value="Fire_Extinguisher">
 						<label for="html" class="radio_labels">Fire Extinguisher</label><br>
-						<input type="radio" id="Fenced_Boundary_Wall" name="Fenced_Boundary_Wall" value="Fenced_Boundary_Wall">
+						<input type="radio" class="custom_radio" id="Fenced_Boundary_Wall" name="Fenced_Boundary_Wall" value="Fenced_Boundary_Wall">
 						<label for="html" class="radio_labels">Fenced Boundary Wall</label><br>
-						<input type="radio" id="CCTV_Bus" name="CCTV_Bus" value="CCTV_Bus">
+						<input type="radio" class="custom_radio" id="CCTV_Bus" name="CCTV_Bus" value="CCTV_Bus">
 						<label for="html" class="radio_labels">CCTV In Bus</label><br>
 					</div>
 					<div class="hr-border mt-4"></div>
@@ -474,23 +487,23 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Medical_Facility" name="Medical_Facility" value="Medical_Facility">
+						<input type="radio" class="custom_radio" id="Medical_Facility" name="Medical_Facility" value="Medical_Facility">
 						<label for="html" class="radio_labels">Medical Facility</label><br>
-						<input type="radio" id="Isolation_Room" name="Isolation_Room" value="Isolation_Room">
+						<input type="radio" class="custom_radio" id="Isolation_Room" name="Isolation_Room" value="Isolation_Room">
 						<label for="html" class="radio_labels">Isolation Room</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Medical_Room" name="Medical_Room" value="Medical_Room">
+						<input type="radio" class="custom_radio" id="Medical_Room" name="Medical_Room" value="Medical_Room">
 						<label for="html" class="radio_labels">Medical Room or Clinic</label><br>
-						<input type="radio" id="ICU" name="ICU" value="ICU">
+						<input type="radio" class="custom_radio" id="ICU" name="ICU" value="ICU">
 						<label for="html" class="radio_labels">ICU</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Resident_Doctor" name="Resident_Doctor" value="Resident_Doctor">
+						<input type="radio" class="custom_radio" id="Resident_Doctor" name="Resident_Doctor" value="Resident_Doctor">
 						<label for="html" class="radio_labels">Resident Doctor</label><br>
-						<input type="radio" id="Dedicated_Ambulance" name="Dedicated_Ambulance" value="Dedicated_Ambulance">
+						<input type="radio" class="custom_radio" id="Dedicated_Ambulance" name="Dedicated_Ambulance" value="Dedicated_Ambulance">
 						<label for="html" class="radio_labels">Dedicated Ambulance</label><br>
 					</div>
 					<div class="hr-border mt-4"></div>
@@ -503,23 +516,23 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Kids_Area" name="Kids_Area" value="Kids_Area">
+						<input type="radio" class="custom_radio" id="Kids_Area" name="Kids_Area" value="Kids_Area">
 						<label for="html" class="radio_labels">Kids Play Area</label><br>
-						<input type="radio" id="Amphitheatre" name="Amphitheatre" value="Amphitheatre">
+						<input type="radio" class="custom_radio" id="Amphitheatre" name="Amphitheatre" value="Amphitheatre">
 						<label for="html" class="radio_labels">Amphitheatre</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Activity_Center" name="Activity_Center" value="Activity_Center">
+						<input type="radio" class="custom_radio" id="Activity_Center" name="Activity_Center" value="Activity_Center">
 						<label for="html" class="radio_labels">Activity Center</label><br>
-						<input type="radio" id="Auditorium" name="Auditorium" value="Auditorium">
+						<input type="radio" class="custom_radio" id="Auditorium" name="Auditorium" value="Auditorium">
 						<label for="html" class="radio_labels">Auditorium</label><br>
 					</div>
 
 					<div class="col-lg-4 col-md-4">
-						<input type="radio" id="Toy_Room" name="Toy_Room" value="Toy_Room">
+						<input type="radio" class="custom_radio" id="Toy_Room" name="Toy_Room" value="Toy_Room">
 						<label for="html" class="radio_labels">Toy Room</label><br>
-						<input type="radio" id="Day_Care" name="Day_Care" value="Day_Care">
+						<input type="radio" class="custom_radio" id="Day_Care" name="Day_Care" value="Day_Care">
 						<label for="html" class="radio_labels">Day Care</label><br>
 					</div>
 					<div class="hr-border mt-4"></div>
@@ -534,15 +547,44 @@
 
 		</div>
 	</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" >
+			<div class="modal-content" style="background: #FDFDFD;  border-radius: 8px;">
+				<div class="modal-header">
+					<!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<h3 class="modal-heading">Please Provide following details to<br>view contact information.</h3>
+					<form>
+						<div class="row mb-4">
+							<div class="col-lg-6">
+								<label class="form-labels">First Name</label>
+								<input type="text" name="" placeholder="Dharmik" class="form-control modal-inputs"><br>
+								<label class="form-labels">Email</label>
+								<input type="Email" name="" placeholder="workwithdharmik@gmail.com" class="form-control modal-inputs">
+							</div>
 
+							<div class="col-lg-6">
+								<label class="form-labels">Last Name</label>
+								<input type="text" name="" placeholder="Moradiya" class="form-control modal-inputs"><br>
+								<label class="form-labels">Mobile Number</label>
+								<input type="number" name="" placeholder="+91 9106370728" class="form-control modal-inputs">
+							</div>
+							<div class="col-lg-12 d-flex justify-content-center mt-3">
+								<button class="viewdetail_btn">VIEW Details</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="./js/fascilities.js"></script>
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>	
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="../js/js.js"></script>
-
 </html>
 
 

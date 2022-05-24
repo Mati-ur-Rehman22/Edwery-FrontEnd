@@ -6,7 +6,7 @@
         plotBorderWidth: null,
         plotShadow: false,
         type: 'pie',
-        height :'200px'
+        height :'220px'
     },
     colors: [' #43E0B0 ', '  #18C2E7'],
     title: {
@@ -28,7 +28,7 @@
             dataLabels: {
                 enabled: false
             },
-            showInLegend: true
+            showInLegend: false
         }
     },
     legend: {
@@ -72,7 +72,7 @@
         plotBorderWidth: null,
         plotShadow: false,
         type: 'pie',
-        height :'200px'
+        height :'220px'
     },
     colors: [' #43E0B0 ', '  #18C2E7'],
     title: {
@@ -94,7 +94,7 @@
             dataLabels: {
                 enabled: false
             },
-            showInLegend: true
+            showInLegend: false
         }
     },
     legend: {
@@ -127,3 +127,9 @@
     }]
 });
   
+
+  // --------------------------
+
+
+    
+   

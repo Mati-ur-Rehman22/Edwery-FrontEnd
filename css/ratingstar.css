@@ -1,0 +1,29 @@
+.rating-box {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .rating-container,.rating-box {
+    direction: rtl !important;}
+    label,.rating-container,.rating-box {
+      display: flex;
+    color: #d4d4d4;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.2s;
+    /*margin-left: 4px !important;*/
+    gap: 5px;
+    }
+    input {
+      display: none;
+    }
+    label:hover, label:hover ~ label, input:checked ~ label  {
+      color: gold;
+    }
+ 
+ .testimonial_stars{
+  margin-left: 10px;
+    justify-content: flex-end;
+  
+ }

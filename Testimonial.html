@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 	<link rel="stylesheet" href="./css/edwery.css">
+	<link rel="stylesheet" href="./css/ratingstar.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
@@ -29,48 +30,59 @@
 	<div  class="container-fluid body-padding">	
 		<div class="row">
 			<div class="col-lg-3 nav_col">
-				<nav class="navbar navbar-expand-lg navbar-light">
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+				<div class="navbar-center">
+					<nav class="navbar navbar-expand-lg navbar-light">
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<div class="collapse navbar-collapse" id="navbarSupportedContent" >
 
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0 nav flex-column">
-							<a class="navbar-brand" href="#">School Details</a>
+							<ul class="navbar-nav me-auto mb-2 mb-lg-0 nav flex-column">
+								<a class="navbar-brand" href="#">School Details</a>
 
-							<li class="nav-item">
+								<li class="nav-item">
 
-								<a class="nav-link " aria-current="page" href="Edwery.html"><img src="./imgs/sidebar-icons/overview-icon.png" width="16px" height="16px"> OverView</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="studentDevelopment.html"> <img src="./imgs/sidebar-icons/studentdevelopment-icon.png" width="16px" height="16px">Student Development</a>
-							</li>
+									<a class="nav-link " aria-current="page" href="Edwery.html"><img src="./imgs/sidebar-icons/overview-icon.png" width="16px" height="16px"> OverView</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="studentDevelopment.html"> <img src="./imgs/sidebar-icons/studentdevelopment-icon.png" width="16px" height="16px">Student Development</a>
+								</li>
 
-							<li class="nav-item">
-								<a class="nav-link" href="fascilites&infrastructure.html"><img src="./imgs/sidebar-icons/facilities-icon.png" width="16px" height="16px"> Facilities & Infrastructure</a>
-							</li>
+								<li class="nav-item">
+									<a class="nav-link" href="fascilites&infrastructure.html"><img src="./imgs/sidebar-icons/facilities-icon.png" width="16px" height="16px"> Facilities & Infrastructure</a>
+								</li>
 
-							<li class="nav-item">
-								<a class="nav-link" href="ExtraCurricural.html"><img src="./imgs/sidebar-icons/extracircular-icons.png" width="16px" height="16px"> Extra Curricular</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="Academics.html"><img src="./imgs/sidebar-icons/academics-icon'.png" width="16px" height="16px"> Academics</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="Fees&AED.html"><img src="./imgs/sidebar-icons/fee-icon.png" width="16px" height="16px"> Fees & AED</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contact us.html"><img src="./imgs/sidebar-icons/mail-icon.png" width="16px" height="16px"> Contact us</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link active" href="Testimonial.html"><img src="./imgs/sidebar-icons/testimonial-icon.png" width="16px" height="16px"> Testimonial</a>
-							</li>
-						</ul>
+								<li class="nav-item">
+									<a class="nav-link" href="ExtraCurricural.html"><img src="./imgs/sidebar-icons/extracircular-icons.png" width="16px" height="16px"> Extra Curricular</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="Academics.html"><img src="./imgs/sidebar-icons/academics-icon'.png" width="16px" height="16px"> Academics</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="Fees&AED.html"><img src="./imgs/sidebar-icons/fee-icon.png" width="16px" height="16px"> Fees & AED</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="contact us.html"><img src="./imgs/sidebar-icons/mail-icon.png" width="16px" height="16px"> Contact us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active contact_navbar" href="Testimonial.html"><img src="./imgs/sidebar-icons/testimonial-icon.png" width="16px" height="16px"> Testimonial</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+				</div>
+				<div class="row d-flex justify-content-end" >
+					<div class="col-md-12 pt-3 pb-3 contact_navbar" style="margin-right: 20px; margin-top: 100px; width: 215px;background: #F7F9FC;border-radius: 20px;">
+						<p class="para-text">If we missed any<br>information or<br> 
+							need to update<br>information<br> 
+						Contact us.</p>
+						<button class="contactus-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./imgs/chat.png" width="16px" height="16px">CONTACT US</button>
 					</div>
-				</nav>
+				</div>
 			</div>
-			<div class="col-lg-9">
+			<div class="col-lg-9 colum_9_4k">
 
 				<div class="row mt-3 row-padding">
 					<div class="col-lg-12">
@@ -78,20 +90,21 @@
 					</div>
 				</div>
 
-				<div class="row row-padding mt-4">
-					<div class="col-lg-6">
-						<div class="pb-3" style="background: #F7F9FC; border-radius: 16px;">
-							<div class="rate">
-								<input type="radio" id="star5" name="rate" value="5" />
-								<label for="star5" title="text">5 stars</label>
-								<input type="radio" id="star4" name="rate" value="4" />
-								<label for="star4" title="text">4 stars</label>
-								<input type="radio" id="star3" name="rate" value="3" />
-								<label for="star3" title="text">3 stars</label>
-								<input type="radio" id="star2" name="rate" value="2" />
-								<label for="star2" title="text">2 stars</label>
-								<input type="radio" id="star1" name="rate" value="1" />
-								<label for="star1" title="text">1 star</label>
+				<div class="row row-padding mt-2">
+					<div class="col-lg-6 mt-3">
+						<div class="pb-3 pt-2" style="background: #F7F9FC; border-radius: 16px;">
+							<div class="rating-box testimonial_stars">
+								<div class="rating-container">
+									<input type="radio" name="rating" value="5" id="star-5"> <label for="star-5">&#9733;</label>
+
+									<input type="radio" name="rating" value="4" id="star-4"> <label for="star-4">&#9733;</label>
+
+									<input type="radio" name="rating" value="3" id="star-3"> <label for="star-3">&#9733;</label>
+
+									<input type="radio" name="rating" value="2" id="star-2"> <label for="star-2">&#9733;</label>
+
+									<input type="radio" name="rating" value="1" id="star-1"> <label for="star-1">&#9733;</label>
+								</div>
 							</div>
 							<p class="para-text" style="margin-left: 10px;">
 								I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.
@@ -107,19 +120,20 @@
 						</div>
 					</div>
 
-					<div class="col-lg-6">
-						<div class="pb-3" style="background: #F7F9FC; border-radius: 16px;">
-							<div class="rate">
-								<input type="radio" id="star10" name="rate1" value="10" />
-								<label for="star10" title="text">5 stars</label>
-								<input type="radio" id="star9" name="rate1" value="9" />
-								<label for="star9" title="text">4 stars</label>
-								<input type="radio" id="star8" name="rate1" value="8" />
-								<label for="star8" title="text">3 stars</label>
-								<input type="radio" id="star7" name="rate1" value="7" />
-								<label for="star7" title="text">2 stars</label>
-								<input type="radio" id="star6" name="rate1" value="6" />
-								<label for="star6" title="text">1 star</label>
+					<div class="col-lg-6 mt-3">
+						<div class="pb-3 pt-2" style="background: #F7F9FC; border-radius: 16px;">
+							<div class="rating-box testimonial_stars">
+								<div class="rating-container">
+									<input type="radio" name="rating1" value="6" id="star-6"> <label for="star-6">&#9733;</label>
+
+									<input type="radio" name="rating1" value="7" id="star-7"> <label for="star-7">&#9733;</label>
+
+									<input type="radio" name="rating1" value="8" id="star-8"> <label for="star-8">&#9733;</label>
+
+									<input type="radio" name="rating1" value="9" id="star-9"> <label for="star-9">&#9733;</label>
+
+									<input type="radio" name="rating1" value="10" id="star-10"> <label for="star-10">&#9733;</label>
+								</div>
 							</div>
 							<p class="para-text" style="margin-left: 10px;">
 								I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.
@@ -136,18 +150,19 @@
 					</div>
 
 					<div class="col-lg-6 mt-3">
-						<div class="pb-3" style="background: #F7F9FC; border-radius: 16px;">
-							<div class="rate">
-								<input type="radio" id="star11" name="rate2" value="11" />
-								<label for="star11" title="text">5 stars</label>
-								<input type="radio" id="star12" name="rate2" value="12" />
-								<label for="star12" title="text">4 stars</label>
-								<input type="radio" id="star13" name="rate2" value="13" />
-								<label for="star13" title="text">3 stars</label>
-								<input type="radio" id="star14" name="rate2" value="14" />
-								<label for="star14" title="text">2 stars</label>
-								<input type="radio" id="star15" name="rate2" value="15" />
-								<label for="star15" title="text">1 star</label>
+						<div class="pb-3 pt-2" style="background: #F7F9FC; border-radius: 16px;">
+							<div class="rating-box testimonial_stars">
+								<div class="rating-container">
+									<input type="radio" name="rating2" value="11" id="star-11"> <label for="star-11">&#9733;</label>
+
+									<input type="radio" name="rating2" value="12" id="star-12"> <label for="star-12">&#9733;</label>
+
+									<input type="radio" name="rating2" value="13" id="star-13"> <label for="star-13">&#9733;</label>
+
+									<input type="radio" name="rating2" value="14" id="star-14"> <label for="star-14">&#9733;</label>
+
+									<input type="radio" name="rating2" value="15" id="star-15"> <label for="star-15">&#9733;</label>
+								</div>
 							</div>
 							<p class="para-text" style="margin-left: 10px;">
 								I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.
@@ -164,18 +179,19 @@
 					</div>
 
 					<div class="col-lg-6 mt-3">
-						<div class="pb-3" style="background: #F7F9FC; border-radius: 16px;">
-							<div class="rate">
-								<input type="radio" id="star16" name="rate3" value="16" />
-								<label for="star16" title="text">5 stars</label>
-								<input type="radio" id="star17" name="rate3" value="17" />
-								<label for="star17" title="text">4 stars</label>
-								<input type="radio" id="star18" name="rate3" value="18" />
-								<label for="star18" title="text">3 stars</label>
-								<input type="radio" id="star19" name="rate3" value="19" />
-								<label for="star19" title="text">2 stars</label>
-								<input type="radio" id="star20" name="rate3" value="20" />
-								<label for="star20" title="text">1 star</label>
+						<div class="pb-3 pt-2" style="background: #F7F9FC; border-radius: 16px;">
+							<div class="rating-box testimonial_stars">
+								<div class="rating-container">
+									<input type="radio" name="rating3" value="16" id="star-16"> <label for="star-16">&#9733;</label>
+
+									<input type="radio" name="rating3" value="17" id="star-17"> <label for="star-17">&#9733;</label>
+
+									<input type="radio" name="rating3" value="18" id="star-18"> <label for="star-18">&#9733;</label>
+
+									<input type="radio" name="rating3" value="19" id="star-19"> <label for="star-19">&#9733;</label>
+
+									<input type="radio" name="rating3" value="20" id="star-20"> <label for="star-20">&#9733;</label>
+								</div>
 							</div>
 							<p class="para-text" style="margin-left: 10px;">
 								I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.
@@ -192,18 +208,19 @@
 					</div>
 
 					<div class="col-lg-6 mt-3">
-						<div class="pb-3" style="background: #F7F9FC; border-radius: 16px;">
-							<div class="rate">
-								<input type="radio" id="star21" name="rate4" value="21" />
-								<label for="star21" title="text">5 stars</label>
-								<input type="radio" id="star22" name="rate4" value="22" />
-								<label for="star22" title="text">4 stars</label>
-								<input type="radio" id="star23" name="rate4" value4="23" />
-								<label for="star23" title="text">3 stars</label>
-								<input type="radio" id="star24" name="rate4" value="24" />
-								<label for="star24" title="text">2 stars</label>
-								<input type="radio" id="star25" name="rate4" value="25" />
-								<label for="star25" title="text">1 star</label>
+						<div class="pb-3 pt-2" style="background: #F7F9FC; border-radius: 16px;">
+							<div class="rating-box testimonial_stars">
+								<div class="rating-container">
+									<input type="radio" name="rating4" value="21" id="star-21"> <label for="star-21">&#9733;</label>
+
+									<input type="radio" name="rating4" value="22" id="star-22"> <label for="star-22">&#9733;</label>
+
+									<input type="radio" name="rating4" value="23" id="star-23"> <label for="star-23">&#9733;</label>
+
+									<input type="radio" name="rating4" value="24" id="star-24"> <label for="star-24">&#9733;</label>
+
+									<input type="radio" name="rating4" value="25" id="star-25"> <label for="star-25">&#9733;</label>
+								</div>
 							</div>
 							<p class="para-text" style="margin-left: 10px;">
 								I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.
@@ -220,18 +237,19 @@
 					</div>
 
 					<div class="col-lg-6 mt-3">
-						<div class="pb-3" style="background: #F7F9FC; border-radius: 16px;">
-							<div class="rate">
-								<input type="radio" id="star26" name="rate5" value="26" />
-								<label for="star26" title="text">5 stars</label>
-								<input type="radio" id="star27" name="rate5" value="27" />
-								<label for="star27" title="text">4 stars</label>
-								<input type="radio" id="star28" name="rate5" value="28" />
-								<label for="star28" title="text">3 stars</label>
-								<input type="radio" id="star29" name="rate5" value="29" />
-								<label for="star29" title="text">2 stars</label>
-								<input type="radio" id="star230" name="rate5" value="30" />
-								<label for="star30" title="text">1 star</label>
+						<div class="pb-3 pt-2" style="background: #F7F9FC; border-radius: 16px;">
+							<div class="rating-box testimonial_stars">
+								<div class="rating-container">
+									<input type="radio" name="rating5" value="26" id="star-26"> <label for="star-26">&#9733;</label>
+
+									<input type="radio" name="rating5" value="27" id="star-27"> <label for="star-27">&#9733;</label>
+
+									<input type="radio" name="rating5" value="28" id="star-28"> <label for="star-28">&#9733;</label>
+
+									<input type="radio" name="rating5" value="29" id="star-29"> <label for="star-29">&#9733;</label>
+
+									<input type="radio" name="rating5" value="30" id="star-30"> <label for="star-30">&#9733;</label>
+								</div>
 							</div>
 							<p class="para-text" style="margin-left: 10px;">
 								I used to spend hours writing creative copy, but now all I do is tell Rytr what I need and it writes everything for me. It's the ultimate AI content writer, and a must-have tool for bloggers, marketers, & entrepreneurs.
@@ -247,26 +265,49 @@
 						</div>
 					</div>
 				</div>
-
-
-
-
-
 			</div>
-
-
-
-
 		</div>
 	</div>
 
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" >
+			<div class="modal-content" style="background: #FDFDFD;  border-radius: 8px;">
+				<div class="modal-header">
+					<!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<h3 class="modal-heading">Please Provide following details to<br>view contact information.</h3>
+					<form>
+						<div class="row mb-4">
+							<div class="col-lg-6">
+								<label class="form-labels">First Name</label>
+								<input type="text" name="" placeholder="Dharmik" class="form-control modal-inputs"><br>
+								<label class="form-labels">Email</label>
+								<input type="Email" name="" placeholder="workwithdharmik@gmail.com" class="form-control modal-inputs">
+							</div>
+
+							<div class="col-lg-6">
+								<label class="form-labels">Last Name</label>
+								<input type="text" name="" placeholder="Moradiya" class="form-control modal-inputs"><br>
+								<label class="form-labels">Mobile Number</label>
+								<input type="number" name="" placeholder="+91 9106370728" class="form-control modal-inputs">
+							</div>
+							<div class="col-lg-12 d-flex justify-content-center mt-3">
+								<button class="viewdetail_btn">VIEW Details</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>	
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>	
-<script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="../js/js.js"></script>
+
 
 </html>
 

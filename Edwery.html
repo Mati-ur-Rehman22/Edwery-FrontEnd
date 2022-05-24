@@ -10,232 +10,34 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
-<style>
-/*.body-padding{
-	padding-left: 50px;
-	padding-right: 40px;
-	}*/
-	.mediacard-title{
-		font-style: normal;
-		font-weight: 700;
-		font-size: 16px;
-		line-height: 40px;
-		letter-spacing: 0.015em;
-		color: #003E42;
-		flex: none;
-		order: 0;
-		flex-grow: 0;
-		margin-bottom: 0px;
 
-	}
-	.mediacard-Subtitle{
-		font-style: normal;
-		font-weight: 500;
-		font-size: 14px;
-		line-height: 10px;
-		letter-spacing: 0.002em;
-		color: #4C787B;
-		flex: none;
-		order: 1;
-		flex-grow: 0;
-		margin-bottom: 0px;
-	}
-	.media-body{
-		margin-left: 10px;
-	}
-	.bookmark-btn,.share-btn,.website-btn{
-		border: 0px;
-		background: none;
-	}
-	.apply-btn{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		padding: 15px 24px;
-		gap: 8px;
-		width: 132px;
-		height: 46px;
-		background: #10DAAC;
-		border-radius: 8px;
-		flex: none;
-		order: 0;
-		flex-grow: 0;
-		border: 0px;
-		color: #FFFFFF;;
-	}
-	.headings{
-		font-style: normal;
-		font-weight: 700;
-		font-size: 20px;
-		line-height: 28px;
-		letter-spacing: 0.015em;
-		color: #003E42;
-		flex: none;
-		align-self: stretch;}
+<body>
+	<div class="container-fluid">
+		<div class="row">
 
-		.para-text{
-			font-style: normal;
-			font-weight: 500;
-			font-size: 14px;
-			line-height: 22px;
-			letter-spacing: 0.002em;
-			color: #4C787B;
-		}
-		.review_div{
-			background: #F7F9FC;
-			border-radius: 8px;
-			padding-bottom: 30px;
-			margin-bottom: 20px;
-		}
-		.review{
-			font-style: normal;
-			font-weight: 700;
-			font-size: 24px;
-			line-height: 32px;
-			color: #003E42;
-			margin-bottom: 0;
-
-		}
-		.reviewoutof5{
-			font-style: normal;
-			font-weight: 700;
-			font-size: 16px;
-			line-height: 24px;
-			letter-spacing: 0.015em;
-			color: #003E42;
-			order: 1;
-			margin-bottom: 0;
-		}
-		.review-text{
-			font-style: normal;
-			font-weight: 500;
-			font-size: 12px;
-			letter-spacing: 0.02em;
-			color: #8CAAAB;
-			order: 1;
-			margin-bottom: 0;
-
-		}
-		.progressbar_heading{
-			font-style: normal;
-			font-weight: 500;
-			font-size: 10px;
-			line-height: 30px;
-			letter-spacing: 0.02em;
-			color: #4C787B;
-			margin-bottom: 0px;
-		}
-		.progress{
-			background: white;
-			height: 8px;
-		}
-		.progress-bar{
-			background: #006A71;
-			border-radius: 15px;
-			width: 132px;
-			height: 8px;
-		}
-		.progress_div{
-			padding-left: 20px;
-			padding-right: 20px;
-		}
-		.socialpara_text{
-			font-style: normal;
-			font-weight: 400;
-			font-size: 16px;
-			line-height: 24px;
-			color: #4C787B;
-		}
-		.social_media_icons{
-			margin-right: 10px;
-		}
-		.facts_title{
-			font-style: normal;
-			font-weight: 500;
-			font-size: 14px;
-			line-height: 30px;
-			letter-spacing: 0.002em;
-			color: #8CAAAB;
-			margin-bottom: 0px;
-		}
-		.facts_subtitle{
-			font-style: normal;
-			font-weight: 500;
-			font-size: 16px;
-			line-height: 24px;
-			color: #003E42;
-			flex: none;
-			order: 1;
-			flex-grow: 0;
-
-		}
-
-		.nav_col{
-			border-right: 1px solid #ECF4F3;
-		}
-		.navbar-brand{
-			font-style: normal;
-			font-weight: 700;
-			font-size: 16px;
-			line-height: 24px;
-			letter-spacing: 0.015em;
-			color: #003E42;
-		}
-		.nav-item{
-			font-style: normal;
-			font-weight: 500;
-			font-size: 14px;
-			line-height: 30px;
-			letter-spacing: 0.002em;
-			color: #4C787B;
-			display: flex;
-			align-items: center;
-		}
-		.nav-item .nav-link {
-			display: flex;
-			align-items: center;
-		}
-
-		.nav-item :active{
-			background: #CFF9EC;
-			border-radius: 8px;
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			padding: 12px 16px;
-			gap: 8px;
-			width: 231px;
-			height: 46px;
-		}
-
-	</style>
-	<body>
-		<div class="container-fluid">
-			<div class="row">
-
-				<div class="col-lg-12 p-0 align-items-center d-flex mt-3 " style="border: 1px solid #ECF4F3;">
-					<div class="d-flex top-nav">
-						<p>Home</p>
-						<p>/</p>
-						<p>Schools</p>
-						<p>/</p>
-						<p>School Details - The Indian Academy</p>
-					</div>
+			<div class="col-lg-12 p-0 align-items-center d-flex mt-3 " style="border: 1px solid #ECF4F3;">
+				<div class="d-flex top-nav">
+					<p>Home</p>
+					<p>/</p>
+					<p>Schools</p>
+					<p>/</p>
+					<p>School Details - The Indian Academy</p>
 				</div>
 			</div>
 		</div>
+	</div>
 
-		<div  class="container-fluid body-padding">	
-			<div class="row">
+	<div  class="container-fluid body-padding">	
+		<div class="row">
 
-				<div class="col-lg-3 nav_col">
+			<div class="col-lg-3 nav_col ">
+				<div class="navbar-center">
 					<nav class="navbar navbar-expand-lg navbar-light">
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="navbar-toggler-icon"></span>
 						</button>
 
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<div class="collapse navbar-collapse" id="navbarSupportedContent" >
 
 							<ul class="navbar-nav me-auto mb-2 mb-lg-0 nav flex-column">
 								<a class="navbar-brand" href="#">School Details</a>
@@ -270,297 +72,407 @@
 							</ul>
 						</div>
 					</nav>
+				</div>
 
-					<div class="row d-flex justify-content-end" style="width: 215px;background: #F7F9FC;border-radius: 20px;">
-						<div class="col-md-12 pt-3 pb-3">
-							<p class="para-text">If we missed any<br>information or<br> 
-								need to update<br>information<br> 
-							Contact us.</p>
-							<button class="contactus-btn"><img src="./imgs/chat.png" width="16px" height="16px">CONTACT US</button>
+				<div class="row d-flex justify-content-end " >
+					<div class="col-md-12 pt-3 pb-3 contact_navbar" style="margin-right: 20px; margin-top: 1200px; width: 215px;background: #F7F9FC;border-radius: 20px;">
+						<p class="para-text">If we missed any<br>information or<br> 
+							need to update<br>information<br> 
+						Contact us.</p>
+						<button class="contactus-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./imgs/chat.png" width="16px" height="16px">CONTACT US</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-9 colum_9_4k">
+				<div class="row mt-3 row-padding overviewtop_row">
+					<div class="col-lg-6">
+						<div class="media d-flex align-items-center ">
+							<img src="./imgs/Frame 639.png" class="align-self-center mr-3" width="76px" height="76px">
+							<div class="media-body">
+								<h5 class="mt-0 mediacard-title">The Indian Academy, Sharjah</h5>
+								<p class="mediacard-Subtitle"><img src="./imgs/Location.png" width="16px" height="16px"> Al Azra, Sharjah, Emirate of Sharjah, UAE . <img src="./imgs/phone-icon.png" width="11.33px" height="11.33px"></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 mt-2">
+						<div class="d-flex align-items-center justify-content-end">
+							<button  class="bookmark-btn"><img src="./imgs/bookmark.png" width="46px" height="48px"></button>
+							<button class="share-btn"><img src="./imgs/share.png" width="46px" height="48px"></button>
+							<button class="website-btn"><img src="./imgs/website.png" width="46px" height="48px"></button>
+							<button class="apply-btn"><img src="./imgs/chat.png" width="16px" height="16px">APPLY</button>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-9">
-					<div class="row mt-3 row-padding">
-						<div class="col-lg-6">
-							<div class="media d-flex">
-								<img src="./imgs/Frame 639.png" class="align-self-center mr-3" width="76px" height="76px">
-								<div class="media-body">
-									<h5 class="mt-0 mediacard-title">The Indian Academy, Sharjah</h5>
-									<p class="mediacard-Subtitle"><img src="./imgs/Location.png" width="16px" height="16px"> Al Azra, Sharjah, Emirate of Sharjah, UAE . <img src="./imgs/phone-icon.png" width="11.33px" height="11.33px"></p>
+
+				<div class="row mt-2 row-padding">
+					<div class="col-md-9 mt-3">
+						<img src="./imgs/indianacademy.png" width="100%" height="357px">
+					</div>
+
+					<div class="col-md-3 mt-3">
+						<img src="./imgs/academy.png" width="100%" height="107px">
+						<img src="./imgs/academy 2.png" width="100%" height="107px" class="mt-3">
+						<img src="./imgs/academy3.png" width="100%" height="107px" class="mt-3">
+					</div>
+				</div>
+
+				<div class="row mt-4 row-padding">
+					<div class="col-md-8">
+						<p class="headings">About</p>
+
+						<p class="para-text">School is upto Secondary School (IX-X) and affiliated to Central Board of Secondary Education (CBSE). The School is a Coed Day School, with classes from KG 1 to X. It is an English Medium school.</p>
+
+						<p class="para-text">Know about The Indian Academy, Sharjah: Board & Curriculum, Admission Procedure, Fees & Fee Structure, Contact Details, Facilities and Ranking, Rating and Reviews.</p>
+
+						<p class="para-text">The Indian Academy Sharjah, is a Secondary School (IX-X), affiliated to Central Board of Secondary Education (CBSE). The School is a Coed Day School, with classes from KG 1 to X. It is an English Medium school. The school is located in Al Azra area of Sharjah.</p>
+
+						<p class="para-text">The Indian Academy Sharjah, is a Secondary School (IX-X), affiliated to Central Board of Secondary Education (CBSE). The School is a Coed Day School, with classes from KG 1 to X. It is an English Medium school.  <span style="color:  #10DAAC;">See More</span></p>
+					</div>
+
+					<div class="col-md-4">
+						<div class="review_div">
+							<div class="trophy">
+								<center>
+									<img src="./imgs/trophy.png" width="76px" height="40px" class="mt-5">
+									<p class="review">4.6 <span class="reviewoutof5">/5</span></p>
+									<p class="review-text">Based on 120 Reviews</p>
+									<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
+									<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
+									<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
+									<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
+									<img src="./imgs/simplestar.png" width="13.31px" height="12.66px" >
+								</center>
+							</div>
+
+							<div class="progress_div">
+								<p class="progressbar_heading">Student Development</p>
+								<div class="progress">
+									<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="progressbar_heading">Facilities & Infrastructure</p>
+								<div class="progress">
+									<div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="progressbar_heading">Extra Curricular</p>
+								<div class="progress">
+									<div class="progress-bar w-85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="progressbar_heading">Academics</p>
+								<div class="progress">
+									<div class="progress-bar w-35" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+								<p class="progressbar_heading">Academics</p>
+								<div class="progress">
+									<div class="progress-bar w-80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 						</div>
-
-						<div class="col-lg-6 mt-2">
-							<div class="d-flex align-items-center justify-content-end">
-								<button  class="bookmark-btn"><img src="./imgs/bookmark.png" width="46px" height="48px"></button>
-								<button class="share-btn"><img src="./imgs/share.png" width="46px" height="48px"></button>
-								<button class="website-btn"><img src="./imgs/website.png" width="46px" height="48px"></button>
-								<button class="apply-btn"><img src="./imgs/chat.png" width="16px" height="16px">Apply</button>
-							</div>
-						</div>
 					</div>
+					<div class="hr-border"></div>
+				</div>
 
-					<div class="row mt-4 row-padding">
-						<div class="col-md-9">
-							<img src="./imgs/indianacademy.png" width="100%" height="357px">
-						</div>
-
-						<div class="col-md-3">
-							<img src="./imgs/academy.png" width="100%" height="107px">
-							<img src="./imgs/academy 2.png" width="100%" height="107px" class="mt-3">
-							<img src="./imgs/academy3.png" width="100%" height="107px" class="mt-3">
-						</div>
-					</div>
-
-					<div class="row mt-4 row-padding">
-						<div class="col-md-8">
-							<p class="headings">About</p>
-
-							<p class="para-text">School is upto Secondary School (IX-X) and affiliated to Central Board of Secondary Education (CBSE). The School is a Coed Day School, with classes from KG 1 to X. It is an English Medium school.</p>
-
-							<p class="para-text">>Know about The Indian Academy, Sharjah: Board & Curriculum, Admission Procedure, Fees & Fee Structure, Contact Details, Facilities and Ranking, Rating and Reviews.</p>
-
-							<p class="para-text">>	The Indian Academy Sharjah, is a Secondary School (IX-X), affiliated to Central Board of Secondary Education (CBSE). The School is a Coed Day School, with classes from KG 1 to X. It is an English Medium school. The school is located in Al Azra area of Sharjah.</p>
-
-							<p class="para-text">>The Indian Academy Sharjah, is a Secondary School (IX-X), affiliated to Central Board of Secondary Education (CBSE). The School is a Coed Day School, with classes from KG 1 to X. It is an English Medium school.  See More</p>
-						</div>
-
-						<div class="col-md-4">
-							<div class="review_div">
-								<div class="trophy">
-									<center>
-										<img src="./imgs/trophy.png" width="76px" height="40px" class="mt-5">
-										<p class="review">4.6 <span class="reviewoutof5">/5</span></p>
-										<p class="review-text">Based on 120 Reviews</p>
-										<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
-										<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
-										<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
-										<img src="./imgs/yellowstar.png" width="13.31px" height="12.66px" >
-										<img src="./imgs/simplestar.png" width="13.31px" height="12.66px" >
-									</center>
-								</div>
-
-								<div class="progress_div">
-									<p class="progressbar_heading">Student Development</p>
-									<div class="progress">
-										<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<p class="progressbar_heading">Facilities & Infrastructure</p>
-									<div class="progress">
-										<div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<p class="progressbar_heading">Extra Curricular</p>
-									<div class="progress">
-										<div class="progress-bar w-85" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<p class="progressbar_heading">Academics</p>
-									<div class="progress">
-										<div class="progress-bar w-35" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-									<p class="progressbar_heading">Academics</p>
-									<div class="progress">
-										<div class="progress-bar w-80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="hr-border"></div>
-					</div>
-
-					<div class="row row-padding">
-						<div class="col-lg-12">
+				<div class="row row-padding">
+					<div class="col-lg-12 mb-2">
 
 
-							<div class="row">
-								<div class="col-lg-6">
-									<div>
-										<div class="headings">Digital Presence</div>
-										<p class="socialpara_text">Social Media Accounts of the schools</p>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="d-flex align-items-center justify-content-end">
-										<img src="./imgs/youtube.png" width="40px" height="40px" class="social_media_icons">
-										<img src="./imgs/linkdin.png" width="40px" height="40px" class="social_media_icons">
-										<img src="./imgs/instagram.png" width="40px" height="40px" class="social_media_icons">
-										<img src="./imgs/twitter.png" width="40px" height="40px" class="social_media_icons">
-										<img src="./imgs/facebook.png" width="40px" height="40px" class="social_media_icons">
-									</div>
-
-								</div>
-							</div>
-						</div>
-						<div class="hr-border"></div>
-
-					</div>
-
-					<div class="row row-padding">
-						<div class="col-lg-12">
-							<div>
-								<div class="headings">Basic Facts</div>
-								<p class="socialpara_text">Social Media Accounts of the schools</p>
-							</div>
-						</div>
-
-						<div class="col-lg-4">
-							<div>
-								<p class="facts_title">Year Established</p>
-								<p class="facts_subtitle">2014</p>
-							</div>
-							<div>
-								<p class="facts_title">Gender</p>
-								<p class="facts_subtitle"><img src="./imgs/unisex.png" width="16px" height="16px" > Co Education</p>
-							</div>
-						</div>
-
-						<div class="col-lg-4">
-							<div>
-								<p class="facts_title">School Type</p>
-								<p class="facts_subtitle">Priavte</p>
-							</div>
-							<div>
-								<p class="facts_title">Boarding</p>
-								<p class="facts_subtitle">Day School</p>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div>
-								<p class="facts_title">Management</p>
-								<p class="facts_subtitle">IQRA Education</p>
-							</div>
-							<div>
-								<p class="facts_title">Grades</p>
-								<p class="facts_subtitle">Class KG 1 - Class X</p>
-							</div>
-						</div>
-						<div class="hr-border"></div>
-
-					</div>
-
-
-					<div class="row row-padding">
-
-						<div class="col-lg-4">
-							<div>
-								<p class="facts_title">Curriculum</p>
-								<p class="facts_subtitle">Central Board of Secondary Education (CBSE)</p>
-							</div>
-						</div>
-
-						<div class="col-lg-4">
-							<div>
-								<p class="facts_title">School Level</p>
-								<p class="facts_subtitle">Pre Primary School (Pre School) Secondary School (IX-X)</p>
-							</div>
-						</div>
-						<div class="col-lg-4">
-							<div>
-								<p class="facts_title">Academic Year</p>
-								<p class="facts_subtitle">April to March</p>
-							</div>
-						</div>
-						<div class="hr-border"></div>
-
-					</div>
-
-
-					<div class="row row-padding">
-						<div class="col-lg-12">
-							<div>
-								<div class="headings">School Journey</div>
-								<p class="socialpara_text">Performace of previous years. <img src="./imgs/info.png" width="16px" height="16px" ></p>
-							</div>
-						</div>
 						<div class="row">
-							<div class="col-lg-2 col-md-2 col-sm-12 ">
-								<p class="mb-0 year">2014 - 2015</p>
-								<div class="d-flex">
-									<img src="./imgs/round_tile.png" width="13px" height="13px" >
-									<img src="./imgs/green_tile.png" width="100%"  height="9px">
+							<div class="col-lg-6">
+								<div>
+									<div class="headings">Digital Presence</div>
+									<p class="socialpara_text">Social Media Accounts of the schools</p>
 								</div>
-								<p class="performace">Outstanding</p>
 							</div>
-							<div class="col-lg-2 col-md-2 col-sm-12 ">
-								<p class="mb-0 year">2015-2016</p>
-								<div class="d-flex">
-									<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
-									<img src="./imgs/blue_tile.png" width="100%"  height="9px" >
+							<div class="col-lg-6 d-flex align-items-center justify-content-end">
+								<div>
+									<img src="./imgs/youtube.png" width="40px" height="40px" class="social_media_icons">
+									<img src="./imgs/linkdin.png" width="40px" height="40px" class="social_media_icons">
+									<img src="./imgs/instagram.png" width="40px" height="40px" class="social_media_icons">
+									<img src="./imgs/twitter.png" width="40px" height="40px" class="social_media_icons">
+									<img src="./imgs/facebook.png" width="40px" height="40px" class="social_media_icons">
 								</div>
-								<p class="performace">Very Good</p>
 
 							</div>
-							<div class="col-lg-2 col-md-2 col-sm-12 ">
-								<p class="mb-0 year">2016-2017</p>
-								<div class="d-flex">
-									<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
-									<img src="./imgs/yellow_tile.png" width="100%" height="9px" >
-								</div>
-								<p class="performace">Acceptable</p>
-
-							</div>
-							<div class="col-lg-2 col-md-2 col-sm-12">
-								<p class="mb-0 year">2017-2018</p>
-								<div class="d-flex">
-									<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
-									<img src="./imgs/pink_tile.png" width="100%" height="9px" >
-								</div>
-								<p class="performace">Weak</p>
-
-							</div>
-							<div class="col-lg-2 col-md-2 col-sm-12">
-								<p class="mb-0 year">2018-2019</p>
-								<div class="d-flex">
-									<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
-									<img src="./imgs/grey_tile.png" width="100%" height="9px" >
-								</div>
-								<p class="performace">Very Weak</p>
-
-							</div>
-
 						</div>
-						<div class="hr-border"></div>
+					</div>
+					<div class="hr-border"></div>
 
+				</div>
+
+				<div class="row row-padding">
+					<div class="col-lg-12">
+						<div>
+							<div class="headings">Basic Facts</div>
+							<p class="socialpara_text">Social Media Accounts of the schools</p>
+						</div>
 					</div>
 
+					<div class="col-lg-4">
+						<div>
+							<p class="facts_title">Year Established</p>
+							<p class="facts_subtitle">2014</p>
+						</div>
+						<div>
+							<p class="facts_title">Gender</p>
+							<p class="facts_subtitle"><img src="./imgs/unisex.png" width="16px" height="16px" > Co Education</p>
+						</div>
+					</div>
 
-					<div class="row row-padding">
-						<div class="col-lg-6">
-							<div>
-								<div class="headings">Staff</div>
-								<p class="socialpara_text">Analytics based by Gender<img src="./imgs/info.png" width="16px" height="16px" ></p>
+					<div class="col-lg-4">
+						<div>
+							<p class="facts_title">School Type</p>
+							<p class="facts_subtitle">Priavte</p>
+						</div>
+						<div>
+							<p class="facts_title">Boarding</p>
+							<p class="facts_subtitle">Day School</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div>
+							<p class="facts_title">Management</p>
+							<p class="facts_subtitle">IQRA Education</p>
+						</div>
+						<div>
+							<p class="facts_title">Grades</p>
+							<p class="facts_subtitle">Class KG 1 - Class X</p>
+						</div>
+					</div>
+					<div class="hr-border"></div>
+
+				</div>
+
+
+				<div class="row row-padding">
+
+					<div class="col-lg-4">
+						<div>
+							<p class="facts_title">Curriculum</p>
+							<p class="facts_subtitle">Central Board of Secondary Education (CBSE)</p>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div>
+							<p class="facts_title">School Level</p>
+							<p class="facts_subtitle">Pre Primary School (Pre School) Secondary School (IX-X)</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div>
+							<p class="facts_title">Academic Year</p>
+							<p class="facts_subtitle">April to March</p>
+						</div>
+					</div>
+					<div class="hr-border"></div>
+
+				</div>
+
+
+				<div class="row row-padding">
+					<div class="col-lg-12">
+						<div>
+							<div class="headings">School Journey</div>
+							<p class="socialpara_text">Performace of previous years. <img src="./imgs/info.png" width="16px" height="16px" ></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-12 ">
+							<p class="mb-0 year">2014 - 2015</p>
+							<div class="d-flex">
+								<img src="./imgs/round_tile.png" width="13px" height="13px" >
+								<img src="./imgs/green_tile.png" width="100%"  height="9px">
 							</div>
+							<p class="performace">Outstanding</p>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12 ">
+							<p class="mb-0 year">2015-2016</p>
+							<div class="d-flex">
+								<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
+								<img src="./imgs/blue_tile.png" width="100%"  height="9px" >
+							</div>
+							<p class="performace">Very Good</p>
 
-							<div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12 ">
+							<p class="mb-0 year">2016-2017</p>
+							<div class="d-flex">
+								<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
+								<img src="./imgs/yellow_tile.png" width="100%" height="9px" >
+							</div>
+							<p class="performace">Acceptable</p>
+
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12">
+							<p class="mb-0 year">2017-2018</p>
+							<div class="d-flex">
+								<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
+								<img src="./imgs/pink_tile.png" width="100%" height="9px" >
+							</div>
+							<p class="performace">Weak</p>
+
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12">
+							<p class="mb-0 year">2018-2019</p>
+							<div class="d-flex">
+								<img src="./imgs/round_tile.png" width="13px" height="13px" class="round_tile">
+								<img src="./imgs/grey_tile.png" width="100%" height="9px" >
+							</div>
+							<p class="performace">Very Weak</p>
+
+						</div>
+
+					</div>
+					<div class="hr-border"></div>
+
+				</div>
+
+
+				<div class="row row-padding mb-5">
+					<div class="col-lg-6">
+						<div>
+							<div class="headings">Staff</div>
+							<p class="socialpara_text">Analytics based by Gender<img src="./imgs/info.png" width="16px" height="16px" ></p>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-8 mt-4">
 								<div id="container"></div>
 							</div>
-						</div>
-						<div class="col-lg-6">
-							<div>
-								<div class="headings">Students </div>
-								<p class="socialpara_text">Analytics based by Gender<img src="./imgs/info.png" width="16px" height="16px" ></p>
-							</div>
-							<div>
-								<div id="container2"></div>
-							</div>
-						</div>
+							<div class="col-lg-4">
+								<div class="d-flex justify-content-between mb-2" style="background: #F7F9FC;border-radius: 8px; padding: 10px;">
+									<p class="chart_female">Total</p>
+									<p class="chart_female_per"> 384</p>
+								</div>
 
+								<div style="background: #F7F9FC;border-radius: 7px;padding: 10px;">
+									<div class="media d-flex">
+										<img src="./imgs/Female-Icon.png" width="32px" height="32px" class="mr-3" alt="...">
+										<div class="media-body">
+											<h5 class="mt-0 chart_female mb-0">Female</h5>
+											<h5 class="chart_female_per">62%</h5>
+										</div>
+
+									</div>
+									<hr style="margin: 10px;">
+									<div class="media d-flex">
+										<img src="./imgs/MaleIcon.png" width="32px" height="32px" class="mr-3" alt="...">
+										<div class="media-body">
+											<h5 class="mt-0 chart_female mb-0">Male</h5>
+											<h5 class="chart_female_per">38%</h5>
+										</div>
+
+									</div>
+									<hr style="margin: 10px;">
+									<div class="media d-flex">
+										<img src="./imgs/MaleIcon.png" width="32px" height="32px" class="mr-3" alt="...">
+										<div class="media-body">
+											<h5 class="mt-0 chart_female mb-0">Others</h5>
+											<h5 class="chart_female_per">38%</h5>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div>
+							<div class="headings">Students </div>
+							<p class="socialpara_text">Analytics based by Gender<img src="./imgs/info.png" width="16px" height="16px" ></p>
+						</div>
+						<div class="row">
+							<div class="col-lg-8 mt-4">
+								<div id="container2" ></div>
+							</div>
+							<div class="col-lg-4">
+								<div class="d-flex justify-content-between mb-2" style="background: #F7F9FC;border-radius: 8px; padding: 10px;">
+									<p class="chart_female">Total</p>
+									<p class="chart_female_per"> 384</p>
+								</div>
+
+								<div style="background: #F7F9FC;border-radius: 7px;padding: 10px;">
+									<div class="media d-flex">
+										<img src="./imgs/Female-Icon.png" width="32px" height="32px" class="mr-3" alt="...">
+										<div class="media-body">
+											<h5 class="mt-0 chart_female mb-0">Female</h5>
+											<h5 class="chart_female_per">62%</h5>
+										</div>
+
+									</div>
+									<hr style="margin: 10px;">
+									<div class="media d-flex">
+										<img src="./imgs/MaleIcon.png" width="32px" height="32px" class="mr-3" alt="...">
+										<div class="media-body">
+											<h5 class="mt-0 chart_female mb-0">Male</h5>
+											<h5 class="chart_female_per">38%</h5>
+										</div>
+
+									</div>
+									<hr style="margin: 10px;">
+									<div class="media d-flex">
+										<img src="./imgs/MaleIcon.png" width="32px" height="32px" class="mr-3" alt="...">
+										<div class="media-body">
+											<h5 class="mt-0 chart_female mb-0">Others</h5>
+											<h5 class="chart_female_per">38%</h5>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 
+				</div>
 
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" >
+			<div class="modal-content" style="background: #FDFDFD;  border-radius: 8px;">
+				<div class="modal-header">
+					<!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<h3 class="modal-heading">Please Provide following details to<br>view contact information.</h3>
+					<form>
+						<div class="row mb-4">
+							<div class="col-lg-6">
+								<label class="form-labels">First Name</label>
+								<input type="text" name="" placeholder="Dharmik" class="form-control modal-inputs"><br>
+								<label class="form-labels">Email</label>
+								<input type="Email" name="" placeholder="workwithdharmik@gmail.com" class="form-control modal-inputs">
+							</div>
+
+							<div class="col-lg-6">
+								<label class="form-labels">Last Name</label>
+								<input type="text" name="" placeholder="Moradiya" class="form-control modal-inputs"><br>
+								<label class="form-labels">Mobile Number</label>
+								<input type="number" name="" placeholder="+91 9106370728" class="form-control modal-inputs">
+							</div>
+							<div class="col-lg-12 d-flex justify-content-center mt-3">
+								<button class="viewdetail_btn">VIEW Details</button>
+							</div>
+						</div>
+					</form>
 				</div>
 
 			</div>
 		</div>
+	</div>	
+</body>
 
-	</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="./js/js.js"></script>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
-	<script src="https://code.highcharts.com/highcharts.js"></script>
-	<script src="./js/js.js"></script>
-
-	</html>
+</html>
 
 
 
