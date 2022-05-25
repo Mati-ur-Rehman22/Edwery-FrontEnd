@@ -5,7 +5,7 @@
 	/*padding-right: 50px !important;*/
 }
 .row-padding{
-	padding-left: 3%;
+	padding-left: 2%;
 	padding-right: 3%;
 }
 .top-nav p{
@@ -100,7 +100,7 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
-	line-height: 35px;
+	line-height: 25px;
 	letter-spacing: 0.015em;
 	color: #003E42;
 	flex: none;
@@ -110,7 +110,7 @@
 .heading-para-text{
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 24px;
 	color: #4C787B;
 }
@@ -133,7 +133,7 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 32px;
+	line-height: 22px;
 	color: #003E42;
 	margin-bottom: 0;
 
@@ -218,10 +218,11 @@
 .navbar-brand{
 	font-style: normal;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 16px !important;
 	line-height: 24px;
 	letter-spacing: 0.015em;
 	color: #003E42;
+	margin-bottom: 30px;
 }
 .nav-item{
 	font-style: normal;
@@ -275,20 +276,19 @@
 		font-size: 16px;
 		line-height: 24px;
 		color: #8CAAAB;
-		padding-left: 3%;
-		padding-right: 3%;
+
 
 	}
 	.table .body-border td{
 		width: 100px;
 		border: 1px solid #ECF4F3;
+		text-align: left;
 	}
 
 	.table thead tr {
 		border: 1px solid #ECF4F3;
 		border-left: 0px;
 		border-style: none;
-		text-align: -webkit-center;
 
 	}
 
@@ -296,13 +296,22 @@
 		border: 1px solid #ECF4F3;
 		border-left: 0px;
 		border-style: none;
-		text-align: -webkit-center;
 	}
 
-	td:first-child, th:first-child{ 
+	.table .student_devlop th{
+		text-align: -webkit-center;
+
+	}
+	.table .body-border td{
+		text-align: -webkit-center;
+
+	}
+	.table .body-border td:first-child, .table .student_devlop th:first-child{ 
 		text-align: left; 
-		padding-left: 3% !important;
+		padding-left: 4% !important;
 	};
+
+	
 
 	.student-para{
 		font-style: normal;
@@ -505,6 +514,8 @@
 		order: 1;
 		flex-grow: 0;
 		border-top: 1px solid #ECF4F3;
+		padding-bottom: 15px;
+		padding-top:15px ;
 	}
 
 	.table .table-body td,.contact{
@@ -517,6 +528,8 @@
 		flex: none;
 		order: 0;
 		flex-grow: 0;
+		padding-bottom: 15px;
+		padding-top:15px ;
 	}
 	.curricural-table{
 		border: 0px;
@@ -526,6 +539,12 @@
 	}
 
 	/*----------------------fee and AED -----*/
+
+
+	.table .table-fee-body td:first-child{ 
+		width: 270px;
+	}
+
 	.fee-btn{
 		flex-direction: row;
 		align-items: center;
@@ -541,9 +560,6 @@
 		line-height: 22px;
 		letter-spacing: 0.002em;
 		color: #18C2E7;
-		flex: none;
-		order: 1;
-		flex-grow: 0;
 		border: 0px;
 	}
 	.fee_update_tag{
@@ -576,6 +592,18 @@
 		max-width: 50% !important;
 		margin: 1.75rem auto;
 	}
+	.modal-body {
+		/*position: relative;*/
+		flex: 1 1 auto;
+		padding: 2rem !important;
+		
+background-image: url('../imgs/union.png');
+		width: 100%;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+	
 	.modal-heading{
 		font-style: normal;
 		font-weight: 700;
@@ -584,9 +612,8 @@
 		text-align: center;
 		letter-spacing: 0.015em;
 		color: #003E42;
-		flex: none;
-		order: 0;
-		flex-grow: 0;
+		margin-bottom: 20px;
+		margin-top: 10px;
 	}
 	.form-labels{
 		font-style: normal;
@@ -610,7 +637,7 @@
 		-webkit-appearance: none;
 		margin: 0;
 	}
-	.viewdetail_btn{
+	.Submit_btn{
 		font-style: normal;
 		font-weight: 500;
 		font-size: 16px;
@@ -631,9 +658,15 @@
 		background: #10DAAC;
 		border-radius: 8px;
 		border: 0px;
+		margin-top: 10px;
 	}
-	.modal-header{
-		border-bottom: 0px !important;
+	.btn-close{
+		float: right;
+		width: 5px !important;
+		height: 5px !important;
+		background: #003E42;
+		margin-top: 15px;
+
 	}
 
 	.hr-border{
@@ -653,7 +686,8 @@
 		background: #10DAAC;
 		border-radius: 8px;
 		padding: 15px 24px;
-		gap: 8px;
+		gap: 5px;
+		display: flex;
 
 		width: 168px;
 		height: 46px;
@@ -721,10 +755,10 @@
 		.para-text,.radio_labels,.student-para,.nav-item,.table .table-body td,.table .table-head th 
 		,.table thead th,.skills_title,.skills_subtitle,.heading-para-text
 		{
-			font-size: 18px;
+			font-size: 15px;
 		}
 		.socialpara_text,.facts_title,.facts_subtitle,.facilites_headings{
-			font-size: 22px;
+			font-size: 19px;
 		}
 		.navbar-light .navbar-nav .nav-link.active{
 			width: 270px;
@@ -739,9 +773,14 @@
 		.overviewtop_row{
 			padding: 0 !important;
 		}
+		.top-row{
+			padding-right: 0 important;
+		}
 
 	}
-
+	.top-row{
+		padding-right: 8%;
+	}
 	/*----------------------------------------*/
 	.highcharts-credits{
 		display: none;
@@ -788,4 +827,12 @@
 	/* appearance for checked radiobutton */
 	.custom_radio:checked {
 		background-color: #003E42;
+	}
+	.star-counter{
+		position: relative;
+		top: 9px;
+	}
+	.accordion-body{
+		padding: 0rem 1.25rem !important;
+
 	}

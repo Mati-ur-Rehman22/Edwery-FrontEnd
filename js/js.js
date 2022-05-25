@@ -6,7 +6,7 @@
         plotBorderWidth: null,
         plotShadow: false,
         type: 'pie',
-        height :'220px'
+        height :'200px'
     },
     colors: [' #43E0B0 ', '  #18C2E7'],
     title: {
@@ -72,7 +72,7 @@
         plotBorderWidth: null,
         plotShadow: false,
         type: 'pie',
-        height :'220px'
+        height :'200px'
     },
     colors: [' #43E0B0 ', '  #18C2E7'],
     title: {
